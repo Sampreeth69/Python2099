@@ -86,4 +86,6 @@ while True:
 total = m+e+s+ss+t+h+a
 percent = total/240*100
 
+print("-----------------------------------------------------------------")
 print("You Got",total,"out of 240 and the average is",percent,"%")
+print("-----------------------------------------------------------------")
