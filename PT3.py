@@ -1,3 +1,7 @@
+print("-----------------------------------------------------------------")
+name = input("Enter Your Name: ")
+print("-----------------------------------------------------------------")
+
 #Maths
 while True:
     try:
@@ -83,9 +87,15 @@ while True:
     else:
         break
 
-total = m+e+s+ss+t+h+a
-average = total/7
+hindi = h/20*100
+hc = hindi/100*40
+ai = a/20*100
+aic = ai/100*40
 
-print("-----------------------------------------------------------------")
-print("You Got",total,"out of 240 and the average mark is",average,"%")
-print("-----------------------------------------------------------------")
+total = m+e+s+ss+t+h+a
+average = (m+e+s+ss+t+hc+aic)/7
+roundoff = (round(average,2))
+
+print("--------------------------------------------------------------------------")
+print(name,"You Got",total,"out of 240 and the average mark is",roundoff,)
+print("--------------------------------------------------------------------------")
