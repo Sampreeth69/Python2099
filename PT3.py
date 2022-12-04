@@ -84,8 +84,8 @@ while True:
         break
 
 total = m+e+s+ss+t+h+a
-percent = total/240*100
+average = total/7
 
 print("-----------------------------------------------------------------")
-print("You Got",total,"out of 240 and the average is",percent,"%")
+print("You Got",total,"out of 240 and the average mark is",average,"%")
 print("-----------------------------------------------------------------")
