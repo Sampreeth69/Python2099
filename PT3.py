@@ -97,5 +97,5 @@ average = (m+e+s+ss+t+hc+aic)/7
 roundoff = (round(average,2))
 
 print("-----------------------------------------------------------------")
-print(name,"You Got",total,"out of 240 and the average mark is",roundoff,)
+print("You Got",total,"out of 240 and the average mark is",roundoff,)
 print("-----------------------------------------------------------------")
